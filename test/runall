@@ -1,0 +1,12 @@
+acl82 -s stack.lisp
+acl82 -s suite1.lisp
+acl90 -s stack.lisp
+acl90 -s suite1.lisp
+ccl -l stack.lisp
+ccl -l suite1.lisp
+clisp -i ~/.clisprc.lisp -on-error debug stack.lisp
+clisp -i ~/.clisprc.lisp -on-error debug suite1.lisp
+ecl -load stack.lisp
+ecl -load suite1.lisp
+sbcl --load stack.lisp
+sbcl --load suite1.lisp
