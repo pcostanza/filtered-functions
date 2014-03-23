@@ -1,4 +1,4 @@
-#+(or cmu mcl scl)
+#+(or abcl cmu mcl scl)
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (error "Filtered functions are currently not supported in this Common Lisp implementation."))
 
