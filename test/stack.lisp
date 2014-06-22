@@ -79,9 +79,3 @@
                 t)))))
 
 (print :done)
-
-#+allegro (excl:exit)
-#+clozure (ccl:quit)
-#+cmu (ext:quit)
-#+ecl (si:quit)
-#+sbcl (sb-ext:quit)

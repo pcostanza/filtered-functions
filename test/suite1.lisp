@@ -95,9 +95,3 @@
 (assert (eql (evaluate '(let ((x 2) (y 3)) (display (add x y)))) 5))
 
 (print :done)
-
-#+allegro (excl:exit)
-#+clozure (ccl:quit)
-#+cmu (ext:quit)
-#+ecl (si:quit)
-#+sbcl (sb-ext:quit)

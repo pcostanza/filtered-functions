@@ -1,12 +1,10 @@
-acl82 -s stack.lisp
-acl82 -s suite1.lisp
-acl90 -s stack.lisp
-acl90 -s suite1.lisp
-ccl -l stack.lisp
-ccl -l suite1.lisp
+acl90 --debug-startup -L ~/.clinit.cl -L stack.lisp --kill
+acl90 --debug-startup -L ~/.clinit.cl -L suite1.lisp --kill
+ccl -l stack.lisp -e '(quit)'
+ccl -l suite1.lisp -e '(quit)'
 clisp -i ~/.clisprc.lisp -on-error debug stack.lisp
 clisp -i ~/.clisprc.lisp -on-error debug suite1.lisp
-ecl -load stack.lisp
-ecl -load suite1.lisp
-sbcl --load stack.lisp
-sbcl --load suite1.lisp
+ecl -shell stack.lisp
+ecl -shell suite1.lisp
+sbcl --load stack.lisp --quit
+sbcl --load suite1.lisp --quit

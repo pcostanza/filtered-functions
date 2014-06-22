@@ -1,0 +1,2 @@
+sbcl --load stack.lisp --quit
+sbcl --load suite1.lisp --quit

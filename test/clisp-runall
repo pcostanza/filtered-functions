@@ -1,0 +1,2 @@
+clisp -i ~/.clisprc.lisp -on-error debug stack.lisp
+clisp -i ~/.clisprc.lisp -on-error debug suite1.lisp

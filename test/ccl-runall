@@ -1,0 +1,2 @@
+ccl -l stack.lisp -e '(quit)'
+ccl -l suite1.lisp -e '(quit)'
