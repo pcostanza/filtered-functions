@@ -4,6 +4,7 @@
 
 (asdf:defsystem #:filtered-functions
   :name "Filtered Functions"
+  :description "Filtered functions provide an extension of generic function invocation that add a simple preprocessing step before the actual method dispatch is performed and thus enable the use of arbitrary predicates for selecting and applying methods."
   :author "Pascal Costanza"
   :version "0.2.0"
   :licence "
