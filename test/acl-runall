@@ -1,2 +1,2 @@
-acl90 --debug-startup -L ~/.clinit.cl -L stack.lisp --kill
-acl90 --debug-startup -L ~/.clinit.cl -L suite1.lisp --kill
+acl --debug-startup -L ~/.clinit.cl -L stack.lisp --kill
+acl --debug-startup -L ~/.clinit.cl -L suite1.lisp --kill
