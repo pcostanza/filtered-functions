@@ -3,7 +3,7 @@ Filtered functions provide an extension of CLOS generic function invocation that
 
 Filtered functions are also provided by [Quicklisp](https://www.quicklisp.org/).
 
-ContextL depends on [Closer to MOP](https://github.com/pcostanza/closer-mop "Closer to MOP").
+Filtered functions depend on [Closer to MOP](https://github.com/pcostanza/closer-mop "Closer to MOP"), and are therefore only supported by the Common Lisp implementations that are supported by that library.
 
 New in version 0.2.0:
 * New version number based on semantic versioning.
