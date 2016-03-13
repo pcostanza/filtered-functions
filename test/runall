@@ -4,7 +4,7 @@ ccl -l stack.lisp -e '(quit)'
 ccl -l suite1.lisp -e '(quit)'
 clisp -i ~/.clisprc.lisp -on-error debug stack.lisp
 clisp -i ~/.clisprc.lisp -on-error debug suite1.lisp
-ecl -shell stack.lisp
-ecl -shell suite1.lisp
+ecl -debug -shell stack.lisp
+ecl -debug -shell suite1.lisp
 sbcl --load stack.lisp --quit
 sbcl --load suite1.lisp --quit

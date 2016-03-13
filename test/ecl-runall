@@ -1,2 +1,2 @@
-ecl -shell stack.lisp
-ecl -shell suite1.lisp
+ecl -debug -shell stack.lisp
+ecl -debug -shell suite1.lisp
